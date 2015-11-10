@@ -1,0 +1,8 @@
+D:\ILOG\CPLEX_Studio_Preview122\cplex\lib\x86_windows_vs2008\stat_mta\ilocplex.lib
+D:\ILOG\CPLEX_Studio_Preview122\cplex\lib\x86_windows_vs2008\stat_mta\cplex122.lib
+D:\ILOG\CPLEX_Studio_Preview122\concert\lib\x86_windows_vs2008\stat_mta\concert.lib
+
+
+D:\Program Files\IBM\ILOG\CPLEX_Studio1261\concert\lib\x64_windows_vs2010\stat_mta\concert.lib
+D:\Program Files\IBM\ILOG\CPLEX_Studio1261\cplex\lib\x64_windows_vs2010\stat_mta\ilocplex.lib
+D:\Program Files\IBM\ILOG\CPLEX_Studio1261\cplex\lib\x64_windows_vs2010\stat_mta\cplex1261.lib
