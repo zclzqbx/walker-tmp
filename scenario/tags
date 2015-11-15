@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+N	integration.cpp	/^const int N=500;\/\/积分分段数,分段越多，结果越精确$/;"	v
+NT	wind_mc.cpp	/^const int NT=24;\/\/误差场景时段$/;"	v
+Num	wind_mc.cpp	/^const int Num=10;\/\/误差场景个数$/;"	v
+Pi	integration.cpp	/^const double Pi=3.14159;$/;"	v
+Poff	wind_mc.cpp	/^const double Poff=5500;\/\/切割点$/;"	v
+Wz	wind_mc.cpp	/^const double Wz=350;\/\/风电总装机容量$/;"	v
+b	integration.cpp	/^const int b=1;\/\/方差$/;"	v
+f	integration.cpp	/^double f(double x)\/\/概率密度函数值$/;"	f
+fintegration	fintegration.cpp	/^double fintegration(fpoint f,const int N=5000,const double minvalue=-1000,const double maxvalue=1000)$/;"	f
+fpoint	fintegration.cpp	/^typedef double (*fpoint)(double x);\/\/ 函数指针用法$/;"	t	file:
+fun1	fintegration.cpp	/^double fun1(double x)\/\/标准正态分布$/;"	f
+fun2	fintegration.cpp	/^double fun2(double x)\/\/二次函数$/;"	f
+fun3	fintegration.cpp	/^double fun3(double x)\/\/指数函数$/;"	f
+main	fintegration.cpp	/^int main()$/;"	f
+main	integration.cpp	/^int main()$/;"	f
+main	wind_mc.cpp	/^int main()$/;"	f
+maxvalue	integration.cpp	/^const double maxvalue=100;$/;"	v
+minvalue	integration.cpp	/^const double minvalue=-100;\/\/积分区间$/;"	v
+normal_distribution	wind_mc.cpp	/^double normal_distribution(const int N=20,const double b=0.0475,const double u=0)$/;"	f
+nsample	wind_mc.cpp	/^const int nsample=20;$/;"	v
+ran	wind_mc.cpp	/^long int ran()\/\/随机数种子$/;"	f
+u	integration.cpp	/^const int u=0;\/\/期望$/;"	v
+uniform_distribution	wind_mc.cpp	/^double uniform_distribution()$/;"	f
