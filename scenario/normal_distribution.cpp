@@ -14,7 +14,7 @@ using namespace std;
 
 const int nsample=20;
 const int NUM=3000;
-const int SegNum=60;
+const int SegNum=120;
 
 double uniform_distribution()
 {
@@ -46,13 +46,14 @@ int main()
 	int seg[SegNum]={0};
 	
 	ofstream output("mc_scenarios.txt",ios::ate);
+	ofstream output1("normal_statistics.txt",ios::ate);
 	
 	double normal_value(0);
 	for(int k=0;k<NUM;++k)
 	{
 		normal_value=normal_distribution(nsample,b,u);
 		output<<normal_value<<"   ";
-		int tmp=normal_value/10;
+		int tmp=normal_value/5;
 		seg[tmp]++;
 	}
 	output<<endl;	
@@ -60,7 +61,8 @@ int main()
 
 	for(int i=0;i<SegNum;++i)
 	{
-		cout<<seg[i]<<endl;
+		output1<<seg[i]<<endl;
 	}
+	output1.close();
 	return 0;
 }
