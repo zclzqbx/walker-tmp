@@ -19,7 +19,7 @@ const IloInt Branch=186;
 const IloInt NL=4;//目标函数线性化分段数
 const IloInt Set=10;//风电场景数
 
-ofstream output("output_scuc.txt",ios::ate);
+ofstream output("output_data/output_scuc.txt",ios::ate);
 
 IloEnv env;//运行环境，运行结束之后要关闭
 IloModel Master_Model(env,"Master_Model");//生成模型
@@ -72,7 +72,7 @@ void define_data(IloEnv env)
 	}
 	
 	output<<endl<<"Pwind:"<<endl;
-	ifstream windpower("wind_power.txt",ios::in);//风电基础场景
+	ifstream windpower("input_data/wind_power.txt",ios::in);//风电基础场景
 	if(!windpower)
 	{	
 		output<<"no such file! wind_pwer.txt"<<endl;
@@ -89,7 +89,7 @@ void define_data(IloEnv env)
 	windpower.close();
 		
 	output<<endl<<endl<<"Pswind:"<<endl;
-	ifstream wind_scenarios("wind_scenarios.txt",ios::in);//读入风电场景
+	ifstream wind_scenarios("input_data/wind_scenarios.txt",ios::in);//读入风电场景
 	if(!wind_scenarios)
 	{	
 		output<<"no such file! wind_scenarios.txt"<<endl;
@@ -110,7 +110,7 @@ void define_data(IloEnv env)
 	wind_scenarios.close();
 	
 	output<<"Pload:"<<endl;
-	ifstream load_input("load.txt",ios::in);//负荷
+	ifstream load_input("input_data/load.txt",ios::in);//负荷
 	if(!load_input)
 	{
 		cerr<<"no such file! load.txt"<<endl;
@@ -124,7 +124,7 @@ void define_data(IloEnv env)
 	load_input.close();
 	
 	output<<endl<<endl<<"Reserve:"<<endl;
-	ifstream reserve("reserve.txt",ios::in);//负荷
+	ifstream reserve("input_data/reserve.txt",ios::in);//负荷
 	if(!reserve)
 	{	
 		output<<"no such file! reserve.txt"<<endl;
@@ -137,7 +137,7 @@ void define_data(IloEnv env)
 	reserve.close();	
 	
 	output<<endl<<endl<<"Unit:"<<endl;
-	ifstream unit_information("unit_information.txt",ios::in);//常规机组分布
+	ifstream unit_information("input_data/unit_information.txt",ios::in);//常规机组分布
 	if(!unit_information)
 	{
 		cerr<<"no such file! unit_information.txt"<<endl;
@@ -163,7 +163,7 @@ void define_data(IloEnv env)
 	}
 	
 	output<<endl<<endl<<"Info_Branch:"<<endl;
-	ifstream BFile("Brach_File.txt",ios::in);//读取支路信息
+	ifstream BFile("input_data/Brach_File.txt",ios::in);//读取支路信息
 	if(!BFile)
 	{
 		cerr<<"no such file! Brach_File.txt"<<endl;
@@ -182,7 +182,7 @@ void define_data(IloEnv env)
 	BFile.close();
 
 	output<<"Sl:"<<endl;
-	ifstream load_locate("load_locate.txt",ios::in);//负荷分布
+	ifstream load_locate("input_data/load_locate.txt",ios::in);//负荷分布
 	if(!load_locate)
 	{
 		cerr<<"no such file! load_locate.txt"<<endl;
@@ -196,7 +196,7 @@ void define_data(IloEnv env)
 	load_locate.close();
 
 	output<<"Sw:"<<endl;
-	ifstream wind_locate("wind_locate.txt",ios::in);//风电场分布
+	ifstream wind_locate("input_data/wind_locate.txt",ios::in);//风电场分布
 	if(!wind_locate)
 	{
 		cerr<<"no such file! wind_locate.txt"<<endl;
