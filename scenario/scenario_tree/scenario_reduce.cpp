@@ -178,12 +178,12 @@ int main()
 	double scenario_new[Aft_N][NT];
 	ofstream output("new_scenario.txt",ios::ate);
 	
-	time_t nowTime=time(0);
+	/*time_t nowTime=time(0);
 	struct tm* nowTimeStruct=localtime(&nowTime);
 	output<<"系统当前时间："<<1900+nowTimeStruct->tm_year<<"."<<nowTimeStruct->tm_mon<<"."<<
 		nowTimeStruct->tm_mday<<"  "<<nowTimeStruct->tm_hour<<":"<<nowTimeStruct->tm_min<<":"<<nowTimeStruct->tm_sec<<endl;
 
-
+*/
 	bool flag=scenarioTreeStepOne(scenario_origin,scenario_new,deleteFlag,scenarioP,scenarioP_new);//scenario reduction function
 	if(!flag)
 	{
@@ -193,7 +193,7 @@ int main()
 
 	for(int i=0;i<Aft_N;++i)
 	{
-		//output<<scenarioP_new[i]<<endl;
+		output<<scenarioP_new[i]<<endl;
 		for(int t=0;t<NT;++t)
 		{
 			output<<scenario_new[i][t]<<"   ";
