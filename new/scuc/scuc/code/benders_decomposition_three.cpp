@@ -26,7 +26,7 @@ IloEnv env;//运行环境，运行结束之后要关闭
 IloModel Master_Model(env,"Master_Model");//生成模型
 IloCplex Master_Cplex(Master_Model);//创建CPLEX环境
 
-ofstream output("output_benders.txt",ios::ate);
+ofstream output("output_data/output_benders.txt",ios::ate);
 
 IloArray<IloNumVarArray>  P(env,NG),PS(env,NG);//机组及相应场景下的出力
 IloArray<IloBoolVarArray>  I(env,NG);//机组启停状态,二维决策变量
@@ -82,7 +82,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	
 	/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>数据读取<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 	output<<"Unit:"<<endl;
-	ifstream unit_information("unit_information.txt",ios::in);//常规机组分布
+	ifstream unit_information("input_data/unit_information.txt",ios::in);//常规机组分布
 	if(!unit_information)
 	{
 		output<<"no such file! unit_information.txt"<<endl;
@@ -108,7 +108,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	}
 	
 	output<<endl<<endl<<"Pload:"<<endl;
-	ifstream load("load.txt",ios::in);//负荷
+	ifstream load("input_data/load.txt",ios::in);//负荷
 	if(!load)
 	{	
 		output<<"no such file! load.txt"<<endl;
@@ -121,7 +121,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	load.close();
 	
 	output<<endl<<endl<<"Reserve:"<<endl;
-	ifstream reserve("reserve.txt",ios::in);//备用
+	ifstream reserve("input_data/reserve.txt",ios::in);//备用
 	if(!reserve)
 	{	
 		output<<"no such file! reserve.txt"<<endl;
@@ -134,7 +134,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	reserve.close();
 	
 	output<<endl<<"Pwind:"<<endl;
-	ifstream windpower("wind_power.txt",ios::in);//风电基础场景
+	ifstream windpower("input_data/wind_power.txt",ios::in);//风电基础场景
 	if(!windpower)
 	{	
 		output<<"no such file! wind_pwer.txt"<<endl;
@@ -151,7 +151,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	windpower.close();
 		
 	output<<endl<<endl<<"Pswind:"<<endl;
-	ifstream wind_scenarios("wind_scenarios.txt",ios::in);//读入风电场景
+	ifstream wind_scenarios("input_data/wind_scenarios.txt",ios::in);//读入风电场景
 	if(!wind_scenarios)
 	{	
 		output<<"no such file! wind_scenarios.txt"<<endl;
@@ -172,7 +172,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	wind_scenarios.close();
 	
 	output<<endl<<"Info_Branch:"<<endl;
-	ifstream BFile("Brach_File.txt",ios::in);//读取风电支路信息:起点，终点，电阻，电抗以及潮流上限
+	ifstream BFile("input_data/Brach_File.txt",ios::in);//读取风电支路信息:起点，终点，电阻，电抗以及潮流上限
 	if(!BFile)
 	{	
 		output<<"no such file! Brach_File.txt"<<endl;
@@ -190,7 +190,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	BFile.close();
 	
 	output<<endl<<"Sl:"<<endl;
-	ifstream load_locate("load_locate.txt",ios::in);//负荷分布
+	ifstream load_locate("input_data/load_locate.txt",ios::in);//负荷分布
 	if(!load_locate)
 	{	
 		output<<"no such file! load_locate.txt"<<endl;
@@ -203,7 +203,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	load_locate.close();
 
 	output<<endl<<endl<<"Sw:"<<endl;
-	ifstream wind_locate("wind_locate.txt",ios::in);//风电场分布
+	ifstream wind_locate("input_data/wind_locate.txt",ios::in);//风电场分布
 	if(!wind_locate)
 	{
 		output<<"no such file! wind_locate.txt"<<endl;
