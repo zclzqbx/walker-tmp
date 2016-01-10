@@ -321,6 +321,7 @@ int main()
 				{
 					Master_Model.add(Deta[i][l][t]<=Z[i][l+1]-Z[i][l]);
 				}
+				
 		for(IloInt i=0; i<NG; ++i)
 			for(IloInt t=0; t<NT; ++t)
 			{
@@ -331,7 +332,8 @@ int main()
 				}
 				Master_Model.add(P[i][t]==Deta_Sum+Unit[i][1]*I[i][t]);
 				Deta_Sum.end();
-			}			
+			}	
+			
 		for(IloInt i=0; i<NG; ++i)
 		{
 			for(IloInt t=0; t<NT; ++t)

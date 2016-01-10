@@ -12,7 +12,7 @@
 using namespace std;
 
 const int NT=24;//误差场景时段
-const int Num=200;//场景个数
+const int Num=1000;//场景个数
 const int nsample=20;
 
 double uniform_distribution()
