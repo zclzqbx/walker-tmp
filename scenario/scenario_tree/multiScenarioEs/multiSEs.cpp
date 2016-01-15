@@ -7,7 +7,7 @@ using namespace std;
 ifstream inputP0("random_scenario.txt",ios::in);
 ifstream inputPs("scenarios.txt",ios::in);
 
-const int S  = 20;
+const int S  = 2;
 const int NT = 24;
 
 double distanceF(double p1[],double p2[],int n = NT);

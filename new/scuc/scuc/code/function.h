@@ -1,6 +1,7 @@
 /*              机组组合相关头文件
- *
- *
+ *author:朱传林
+ *date:2014.10.9
+ *function:1）机组组合求解头文件
  *
  */
 #include <ilcplex/ilocplex.h>

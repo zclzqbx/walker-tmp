@@ -1,5 +1,7 @@
 /*             	求正态分布积分函数
- *1）本程序采用最原始的积分求解方法：面积逼近法；
+ *author:朱传林
+ *date:2016.01.15以前
+ *function:1）本程序采用最原始的积分求解方法：面积逼近法；
  */
 #include<fstream>
 #include<iostream>

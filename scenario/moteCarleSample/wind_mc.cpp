@@ -11,16 +11,16 @@
 #include <cstdlib>
 using namespace std;
 
-const int NT=24;//误差场景时段
-const int Num=10;//误差场景个数
-const int nsample=20;
-const double Poff=5500;//切割点
-const double Wz=350;//风电总装机容量
+const int NT      = 24;//误差场景时段
+const int Num     = 10;//误差场景个数
+const int nsample = 20;
+const double Poff = 5500;//切割点
+const double Wz   = 350;//风电总装机容量
 
 double uniform_distribution()
 {
-	return ((double)rand()/RAND_MAX)*2-1;
-	//产生服从（-1，1）(由（0，1）-->(-1,1))均匀分布的随机数	
+	//产生服从（-1，1）(由（0，1）-->(-1,1))均匀分布的随机数
+	return ((double)rand()/RAND_MAX)*2-1;		
 }
 
 long int ran()//随机数种子

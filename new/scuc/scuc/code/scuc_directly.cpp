@@ -1,5 +1,7 @@
 /*                  118多风电场机组组合
- *1）直接求解机组组合数学模型
+ *author:朱传林
+ *date:2014.10.9
+ *function:1）直接建模求解机组组合
  *2）相应函数存放在头文件中；
  */
 #include<ilcplex/ilocplex.h>
@@ -11,13 +13,13 @@
 using namespace std;
 ILOSTLBEGIN
 
-const IloInt NG=54;//常规机组台数
-const IloInt NT=24;//调度周期时段数
-const IloInt NW=1;//风电机组个数
-const IloInt Node=118;
-const IloInt Branch=186;
-const IloInt NL=4;//目标函数线性化分段数
-const IloInt Set=10;//风电场景数
+const IloInt NG     = 54;//常规机组台数
+const IloInt NT     = 24;//调度周期时段数
+const IloInt NW     = 1;//风电机组个数
+const IloInt Node   = 118;
+const IloInt Branch = 186;
+const IloInt NL     = 4;//目标函数线性化分段数
+const IloInt Set    = 10;//风电场景数
 
 ofstream output("output_data/output_scuc.txt",ios::ate);
 
@@ -315,7 +317,7 @@ int main()
 /*************************************************************目标函数*******************************************************/
 		IloNumExpr Cost(env);
 
-		for(IloInt i=0; i<NG; ++i) //运行成本及其线性化（青华姐论文）
+		for(IloInt i=0; i<NG; ++i) //运行成本及其线性化
 			for(IloInt l=0; l<NL; ++l)
 				for(IloInt t=0; t<NT; ++t)
 				{

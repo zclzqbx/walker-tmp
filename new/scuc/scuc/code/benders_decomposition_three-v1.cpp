@@ -1,7 +1,8 @@
 /*              不规则概率分布风电机组组合
- *1）三个子问题的机组组合；
+ *author:朱传林
+ *date:2014.10.9
+ *function:1）采用Benders分解方法求解机组组合；
  *2）相应函数存放在头文件中；
- *
  *
  */
 #include<ilcplex/ilocplex.h>
@@ -13,14 +14,14 @@
 using namespace std;
 ILOSTLBEGIN
 
-const IloInt NG=54;//常规机组台数
-const IloInt NT=24;//调度周期时段数
-const IloInt NL=4;//目标函数线性化分段数,理论上分段越多越精确，但会增加计算量
-const IloInt NW=1;//风电场个数
-const IloInt set=10;//场景个数
-const IloInt Node=118;//结点
-const IloInt Branch=186;//支路
-const IloNum limit=0.8;//返回割阀值
+const IloInt NG     = 54;//常规机组台数
+const IloInt NT     = 24;//调度周期时段数
+const IloInt NL     = 4;//目标函数线性化分段数,理论上分段越多越精确，但会增加计算量
+const IloInt NW     = 1;//风电场个数
+const IloInt set    = 10;//场景个数
+const IloInt Node   = 118;//结点
+const IloInt Branch = 186;//支路
+const IloNum limit  = 0.8;//返回割阀值
 
 IloEnv env;//运行环境，运行结束之后要关闭
 IloModel Master_Model(env,"Master_Model");//生成模型
