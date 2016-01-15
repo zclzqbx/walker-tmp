@@ -18,7 +18,7 @@ const IloInt NG     = 54;//常规机组台数
 const IloInt NT     = 24;//调度周期时段数
 const IloInt NL     = 4;//目标函数线性化分段数,理论上分段越多越精确，但会增加计算量
 const IloInt NW     = 1;//风电场个数
-const IloInt set    = 10;//场景个数
+const IloInt set    = 20;//场景个数
 const IloInt Node   = 118;//结点
 const IloInt Branch = 186;//支路
 const IloNum limit  = 0.8;//返回割阀值
@@ -308,7 +308,7 @@ int main()
 	start=clock();
 	time_t nowTime=time(0);
 	struct tm* nowTimeStruct=localtime(&nowTime);
-	output<<"系统当前时间："<<1900+nowTimeStruct->tm_year<<"."<<nowTimeStruct->tm_mon<<"."<<
+	output<<"系统当前时间："<<1900+nowTimeStruct->tm_year<<"."<<nowTimeStruct->tm_mon + 1<<"."<<
 		nowTimeStruct->tm_mday<<"  "<<nowTimeStruct->tm_hour<<":"<<nowTimeStruct->tm_min<<":"<<nowTimeStruct->tm_sec<<endl;
 
 	try
