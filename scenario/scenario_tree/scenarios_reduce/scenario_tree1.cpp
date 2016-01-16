@@ -16,11 +16,11 @@
 
 using namespace std;
 
-const int Pre_N = 1000;//the number of scenario before reduction
+const int Pre_N = 500;//the number of scenario before reduction
 const int Aft_N = 20;//the number of scenario after reduction
 const int NT    = 24;//time
 
-const int J[NT]={0,1,0,0,1,0,2,0,0,1,0,0,2,0,2,0,0,3,0,3,0,4,0,980};//各个时段删除的节点数
+const int J[NT]={0,1,0,0,1,0,2,0,0,1,0,0,2,0,2,0,0,3,0,3,0,4,0,480};//各个时段删除的节点数
 
 double c_distance(double s1[NT],double s2[NT],int T)
 {//求两个场景的距离
