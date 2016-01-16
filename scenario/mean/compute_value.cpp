@@ -10,15 +10,15 @@
 using namespace std;
 
 const int NT      = 24;
-const double Wz   = 600;
-const double Poff = 450;
+const double Wz   = 350;
+const double Poff = 300;
 const int D       = 500;//横向搜索区间
 const double Pi   = 3.14159;
 
 double pre[NT];
 double computeResult[NT];
 
-ifstream input("pre_scenarios.txt",ios::in);
+ifstream input("wind_power.txt",ios::in);
 ofstream output("compute.txt",ios::ate);
 
 double f(double x,double u,double b)//概率密度函数函数
