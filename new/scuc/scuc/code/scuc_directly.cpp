@@ -19,7 +19,7 @@ const IloInt NW     = 1;//风电机组个数
 const IloInt Node   = 118;
 const IloInt Branch = 186;
 const IloInt NL     = 4;//目标函数线性化分段数
-const IloInt Set    = 10;//风电场景数
+const IloInt Set    = 20;//风电场景数
 
 ofstream output("output_data/output_scuc.txt",ios::ate);
 
