@@ -11,7 +11,7 @@ using namespace std;
  
 const int WINDNUM = 3;
 const int NT      = 24;
-const int SCENNUM = 1000;
+const int SCENNUM = 20;
 
 //之所以分开存放是考虑到系统内存的限制
 ifstream input1("scenarios1.txt",ios::in);//风电场1
