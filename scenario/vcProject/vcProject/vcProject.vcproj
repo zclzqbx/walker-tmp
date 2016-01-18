@@ -171,7 +171,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\scenario_tree\scenario_tree1.cpp"
+				RelativePath="..\..\scenario_tree\scenarios_reduce\multi_wind\multi_wind_reduce.cpp"
 				>
 			</File>
 		</Filter>
@@ -186,10 +186,6 @@
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
-			<File
-				RelativePath="..\..\scenario_tree\new_scenario.txt"
-				>
-			</File>
 		</Filter>
 	</Files>
 	<Globals>

@@ -14,7 +14,8 @@ using namespace std;
 const int NT         = 24;//误差场景时段
 const int Num        = 1000;//场景个数
 const int nsample    = 20;//与正态分布随机数精度有关 
-const double pref    = 300;//切割点
+const double pref    = 80;//切割点
+const double Wz      = 100;//总装机容量
 
 double uniform_distribution()
 {	//产生服从（-1，1）(由（0，1）-->(-1,1))均匀分布的随机数
@@ -43,8 +44,7 @@ double normal_distribution(const int N = 20,const double b=0.0475,const double u
 int main()
 {
 	double Pre[NT],u = 0,b = 0.0475;//预测场景、均值、方差
-	double Wz = 350;//总装机容量
-	
+		
 	ifstream input("wind_power.txt",ios::in);
 	if(!input)
 	{

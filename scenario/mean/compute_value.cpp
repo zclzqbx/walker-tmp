@@ -10,8 +10,8 @@
 using namespace std;
 
 const int NT      = 24;
-const double Wz   = 350;
-const double Poff = 300;
+const double Wz   = 100;
+const double Poff = 80;
 const int D       = 500;//ºáÏòËÑË÷Çø¼ä
 const double Pi   = 3.14159;
 
