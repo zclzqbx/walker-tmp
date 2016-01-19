@@ -14,8 +14,8 @@ using namespace std;
 const int NT         = 24;//误差场景时段
 const int Num        = 1000;//场景个数
 const int nsample    = 20;//与正态分布随机数精度有关 
-const double pref    = 80;//切割点
-const double Wz      = 100;//总装机容量
+const double pref    = 190;//切割点
+const double Wz      = 200;//总装机容量
 
 double uniform_distribution()
 {	//产生服从（-1，1）(由（0，1）-->(-1,1))均匀分布的随机数
