@@ -10,9 +10,9 @@
 using namespace std;
 
 const int NT      = 24;
-const double Wz   = 100;
-const double Poff = 80;
-const int D       = 500;//横向搜索区间
+const double Wz   = 200;
+const double Poff = 190;
+const int D       = 1000;//横向搜索区间
 const double Pi   = 3.14159;
 
 double pre[NT];
