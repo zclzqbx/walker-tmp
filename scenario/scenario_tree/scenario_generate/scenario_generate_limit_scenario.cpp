@@ -11,11 +11,11 @@
 #include <cstdlib>
 using namespace std;
 
-#define POS pos_090//定义分位点，本程序采用的是对称分位点
+#define POS pos_085//定义分位点，本程序采用的是对称分位点
 
 const int NT         = 24;//误差场景时段
-const double pref    = 160;//切割点
-const double Wz      = 200;//总装机容量
+const double pref    = 135;//切割点
+const double Wz      = 150;//总装机容量
 
 //标准正态分布分位点
 const double pos_095 = 1.6449;
