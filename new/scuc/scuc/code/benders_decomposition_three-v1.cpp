@@ -103,7 +103,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	output<<endl<<endl<<"detaa:"<<endl;
 	for(IloInt i=0;i<NG;i++)
 	{
-		detaa[i]=Unit[i][5]/10;
+		detaa[i]=Unit[i][5]/6;
 		output<<detaa[i]<<"   ";
 	}
 	
