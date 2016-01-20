@@ -11,7 +11,7 @@ using namespace std;
 
 const int NT      = 24;
 const double Wz   = 200;
-const double Poff = 190;
+const double Poff = 160;
 const int D       = 1000;//ºáÏòËÑË÷Çø¼ä
 const double Pi   = 3.14159;
 
