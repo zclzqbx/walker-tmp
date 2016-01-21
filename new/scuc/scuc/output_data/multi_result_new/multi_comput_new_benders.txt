@@ -1,4 +1,4 @@
-系统当前时间：2016.1.21  19:52:40
+系统当前时间：2016.1.21  19:6:57
 Unit:
 1   25   100   5   5   50   50   50   0.0128   17.82   10.15   1   
 4   5   30   1   1   15   15   40   0.06966   26.2438   31.67   1   
@@ -65,9 +65,9 @@ Pload:
 Reserve:
 1389.2   1239.8   1165.4   1290.8   2190.8   1165.4   1389.2   1837.8   2147.7   1546.5   1695.7   1733   1695.7   1733   1733   1621.1   1583.8   1583.8   1471.9   1434.6   1434.6   1471.9   2147.7   1687.6   
 Pwind:
-75   51   31.5   45   82.5   112.5   136.5   169.5   195   217.5   225   222   210   196.5   183   157.5   148.5   127.5   121.5   112.5   127.5   126   135   120   
-65   112   115   111   121   141   145   143   130   127   139   143   141   134   133   115   93   74   67   65   75   66   86   53   
-154.5   164   145   135.5   150   165   157.2   157.5   165.5   172   181.4   180.4   174.5   161.5   153.5   141   118.7   90.4   93.5   110.8   126.6   131.7   168.5   161.8   
+75   51   31.5   45   82.5   112.5   136.478   168.472   189.65   203.761   207.458   206.037   199.571   190.734   180.285   157.161   148.379   127.496   121.499   112.5   127.496   125.997   134.983   119.999   
+65   109.466   111.694   108.694   115.738   125.329   126.621   125.997   120.76   119.223   124.614   125.997   125.329   122.608   122.167   111.694   92.7796   73.9982   66.9999   65   74.9975   66   85.9451   53   
+143.158   147.247   137.987   131.656   140.851   147.62   144.424   144.56   147.802   149.958   152.437   152.205   150.686   146.268   142.667   135.464   117.833   90.3925   93.4843   110.47   124.706   128.802   148.847   146.389   
 
 
 Pswind:
@@ -367,7 +367,7 @@ Sw:
 -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   0   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   -1   
 
 主问题迭代次数：0
-Master Problem Have Solution, the objective value is: 848768
+Master Problem Have Solution, the objective value is: 855520
 
 Master Problem Security Constraint Check:1
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -385,10 +385,10 @@ Master Problem Security Constraint Check:5
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 15.8955
+Master_Security_Problem Have Solution, the objective value is: 3.90015
 
 Master Problem Security Constraint Check:7
-Master_Security_Problem Have Solution, the objective value is: 8.42843
+Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:8
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -403,7 +403,7 @@ Master Problem Security Constraint Check:11
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:12
-Master_Security_Problem Have Solution, the objective value is: 2.70695
+Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:13
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -443,7 +443,7 @@ Master_Security_Problem Have Solution, the objective value is: 0
 
 主问题安全约束越限，返回主问题>>>
 主问题迭代次数：1
-Master Problem Have Solution, the objective value is: 848280
+Master Problem Have Solution, the objective value is: 856146
 
 Master Problem Security Constraint Check:1
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -461,10 +461,10 @@ Master Problem Security Constraint Check:5
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 7.04662e-007
+Master_Security_Problem Have Solution, the objective value is: 1.19499e-005
 
 Master Problem Security Constraint Check:7
-Master_Security_Problem Have Solution, the objective value is: 7.82486e-007
+Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:8
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -476,86 +476,10 @@ Master Problem Security Constraint Check:10
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:11
-Master_Security_Problem Have Solution, the objective value is: 0.897993
+Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:12
-Master_Security_Problem Have Solution, the objective value is: 1.35716e-006
-
-Master Problem Security Constraint Check:13
 Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:14
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:15
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:16
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:17
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:18
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:19
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:20
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:21
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:22
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:23
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:24
-Master_Security_Problem Have Solution, the objective value is: 0
-
-主问题安全约束越限，返回主问题>>>
-主问题迭代次数：2
-Master Problem Have Solution, the objective value is: 848255
-
-Master Problem Security Constraint Check:1
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:2
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:3
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:4
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:5
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 1.19131e-006
-
-Master Problem Security Constraint Check:7
-Master_Security_Problem Have Solution, the objective value is: 1.32203e-006
-
-Master Problem Security Constraint Check:8
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:9
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:10
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:11
-Master_Security_Problem Have Solution, the objective value is: 2.03479e-006
-
-Master Problem Security Constraint Check:12
-Master_Security_Problem Have Solution, the objective value is: 2.3524e-006
 
 Master Problem Security Constraint Check:13
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -594,611 +518,90 @@ Master Problem Security Constraint Check:24
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Num_Senario_Iterator（场景）:1
-Senario_Sub_Problem Have Solution, and objective is: 0
+Senario_Sub_Problem Have Solution, and objective is: 42.4853
 
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
+场景校验子问题不满足，返回主问题>>>
+主问题迭代次数：2
+Master Problem Have Solution, the objective value is: 854706
 
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:1
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:2
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:3
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:4
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:5
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:6
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:7
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:8
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:9
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:10
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:11
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:12
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:13
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:14
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:15
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:16
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:17
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:18
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:19
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:20
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:21
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:22
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:23
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Num_Senario_Iterator（场景）:2
-Senario_Sub_Problem Have Solution, and objective is: 0
+Master Problem Security Constraint Check:24
+Master_Security_Problem Have Solution, the objective value is: 0
 
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:3
-Senario_Sub_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:4
-Senario_Sub_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:5
-Senario_Sub_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:6
-Senario_Sub_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:7
-Senario_Sub_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:8
-Senario_Sub_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 4.19606
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
-Senario_Sub_Problem Have Solution, and objective is: 5.71511
+Num_Senario_Iterator（场景）:1
+Senario_Sub_Problem Have Solution, and objective is: 0.818664
 
 场景校验子问题不满足，返回主问题>>>
 主问题迭代次数：3
-Master Problem Have Solution, the objective value is: 849509
+Master Problem Have Solution, the objective value is: 854688
 
 Master Problem Security Constraint Check:1
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -1216,10 +619,10 @@ Master Problem Security Constraint Check:5
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 6.83473e-005
+Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:7
-Master_Security_Problem Have Solution, the objective value is: 7.59274e-005
+Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:8
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -1273,7 +676,7 @@ Master Problem Security Constraint Check:24
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Num_Senario_Iterator（场景）:1
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
+Senario_Sub_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -1291,157 +694,7 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:2
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:3
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 13.3456
+Senario_Security_Problem Have Solution, and objective is: 8.72198
 
 Sub Problem Security Constraint Check:7
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -1498,611 +751,11 @@ Sub Problem Security Constraint Check:24
 Senario_Security_Problem Have Solution, and objective is: 0
 
 goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:4
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:5
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 13.3456
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:6
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:7
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 13.3456
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Num_Senario_Iterator（场景）:8
-Senario_Sub_Problem Have Solution, and objective is: 0.397929
-
-Sub Problem Security Constraint Check:1
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:3
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 5.41799
-
-Sub Problem Security Constraint Check:5
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 2.2248
-
-Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:8
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:9
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:10
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:11
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:12
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:14
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:15
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:16
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:17
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:18
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:19
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:20
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:21
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:22
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:23
-Senario_Security_Problem Have Solution, and objective is: 0
-
-Sub Problem Security Constraint Check:24
-Senario_Security_Problem Have Solution, and objective is: 0
-
-goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
-Senario_Sub_Problem Have Solution, and objective is: 7.40614
+Senario_Sub_Problem Have Solution, and objective is: 11.0624
 
 场景校验子问题不满足，返回主问题>>>
 主问题迭代次数：4
-Master Problem Have Solution, the objective value is: 849374
+Master Problem Have Solution, the objective value is: 854965
 
 Master Problem Security Constraint Check:1
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -2120,7 +773,7 @@ Master Problem Security Constraint Check:5
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 0.000177169
+Master_Security_Problem Have Solution, the objective value is: 0
 
 Master Problem Security Constraint Check:7
 Master_Security_Problem Have Solution, the objective value is: 0
@@ -2177,13 +830,13 @@ Master Problem Security Constraint Check:24
 Master_Security_Problem Have Solution, the objective value is: 0
 
 Num_Senario_Iterator（场景）:1
-Senario_Sub_Problem Have Solution, and objective is: 0.397788
+Senario_Sub_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:2
-Senario_Security_Problem Have Solution, and objective is: 8.57025
+Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:3
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -2195,7 +848,7 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
-Senario_Security_Problem Have Solution, and objective is: 0
+Senario_Security_Problem Have Solution, and objective is: 1.90959
 
 Sub Problem Security Constraint Check:7
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -2252,241 +905,7 @@ Sub Problem Security Constraint Check:24
 Senario_Security_Problem Have Solution, and objective is: 0
 
 goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
-Senario_Sub_Problem Have Solution, and objective is: 16.0204
-
-场景校验子问题不满足，返回主问题>>>
-主问题迭代次数：5
-Master Problem Have Solution, the objective value is: 849840
-
-Master Problem Security Constraint Check:1
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:2
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:3
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:4
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:5
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 5.36672e-007
-
-Master Problem Security Constraint Check:7
-Master_Security_Problem Have Solution, the objective value is: 5.94354e-007
-
-Master Problem Security Constraint Check:8
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:9
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:10
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:11
-Master_Security_Problem Have Solution, the objective value is: 9.17659e-007
-
-Master Problem Security Constraint Check:12
-Master_Security_Problem Have Solution, the objective value is: 1.0597e-006
-
-Master Problem Security Constraint Check:13
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:14
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:15
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:16
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:17
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:18
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:19
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:20
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:21
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:22
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:23
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:24
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Num_Senario_Iterator（场景）:1
-Senario_Sub_Problem Have Solution, and objective is: 23.1983
-
-场景校验子问题不满足，返回主问题>>>
-主问题迭代次数：6
-Master Problem Have Solution, the objective value is: 848304
-
-Master Problem Security Constraint Check:1
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:2
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:3
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:4
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:5
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 3.09055e-006
-
-Master Problem Security Constraint Check:7
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:8
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:9
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:10
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:11
-Master_Security_Problem Have Solution, the objective value is: 5.41416e-006
-
-Master Problem Security Constraint Check:12
-Master_Security_Problem Have Solution, the objective value is: 6.08961e-006
-
-Master Problem Security Constraint Check:13
-Master_Security_Problem Have Solution, the objective value is: 10.4887
-
-Master Problem Security Constraint Check:14
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:15
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:16
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:17
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:18
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:19
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:20
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:21
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:22
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:23
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:24
-Master_Security_Problem Have Solution, the objective value is: 0
-
-主问题安全约束越限，返回主问题>>>
-主问题迭代次数：7
-Master Problem Have Solution, the objective value is: 848182
-
-Master Problem Security Constraint Check:1
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:2
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:3
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:4
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:5
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:6
-Master_Security_Problem Have Solution, the objective value is: 1.30795e-005
-
-Master Problem Security Constraint Check:7
-Master_Security_Problem Have Solution, the objective value is: 1.45196e-005
-
-Master Problem Security Constraint Check:8
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:9
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:10
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:11
-Master_Security_Problem Have Solution, the objective value is: 2.28047e-005
-
-Master Problem Security Constraint Check:12
-Master_Security_Problem Have Solution, the objective value is: 2.36337e-005
-
-Master Problem Security Constraint Check:13
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:14
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:15
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:16
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:17
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:18
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:19
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:20
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:21
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:22
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:23
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Master Problem Security Constraint Check:24
-Master_Security_Problem Have Solution, the objective value is: 0
-
-Num_Senario_Iterator（场景）:1
-Senario_Sub_Problem Have Solution, and objective is: 0
+Senario_Sub_Problem Have Solution, and objective is: 0.14099
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -2579,6 +998,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.14099
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -2637,6 +1131,81 @@ Senario_Security_Problem Have Solution, and objective is: 0
 
 Num_Senario_Iterator（场景）:3
 Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.14099
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -2729,6 +1298,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.90959
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.14099
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -2787,6 +1431,81 @@ Senario_Security_Problem Have Solution, and objective is: 0
 
 Num_Senario_Iterator（场景）:5
 Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.14099
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -2879,6 +1598,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.90959
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.14099
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -2937,6 +1731,81 @@ Senario_Security_Problem Have Solution, and objective is: 0
 
 Num_Senario_Iterator（场景）:7
 Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.14099
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3023,7 +1892,1286 @@ Sub Problem Security Constraint Check:3
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:4
-Senario_Security_Problem Have Solution, and objective is: 0.619012
+Senario_Security_Problem Have Solution, and objective is: 5.31509
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0.800929
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0.681675
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 5.74312
+
+场景校验子问题不满足，返回主问题>>>
+主问题迭代次数：5
+Master Problem Have Solution, the objective value is: 854496
+
+Master Problem Security Constraint Check:1
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:2
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:3
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:4
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:5
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:6
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:7
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:8
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:9
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:10
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:11
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:12
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:13
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:14
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:15
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:16
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:17
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:18
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:19
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:20
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:21
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:22
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:23
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Master Problem Security Constraint Check:24
+Master_Security_Problem Have Solution, the objective value is: 0
+
+Num_Senario_Iterator（场景）:1
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:2
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:3
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:4
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:5
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:6
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:7
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:8
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0.661509
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 3.49699
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0.661509
 
 Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3087,6 +3235,81 @@ Senario_Security_Problem Have Solution, and objective is: 0
 
 Num_Senario_Iterator（场景）:9
 Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 1.63743
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3179,6 +3402,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -3254,7 +3552,157 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
 Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0.34631
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 5.1027
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0.34631
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Num_Senario_Iterator（场景）:12
+Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
 
 Sub Problem Security Constraint Check:7
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3310,8 +3758,8 @@ Senario_Security_Problem Have Solution, and objective is: 0
 Sub Problem Security Constraint Check:24
 Senario_Security_Problem Have Solution, and objective is: 0
 
-Num_Senario_Iterator（场景）:12
-Senario_Sub_Problem Have Solution, and objective is: 0
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3404,6 +3852,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -3462,6 +3985,81 @@ Senario_Security_Problem Have Solution, and objective is: 0
 
 Num_Senario_Iterator（场景）:14
 Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3554,6 +4152,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -3612,6 +4285,81 @@ Senario_Security_Problem Have Solution, and objective is: 0
 
 Num_Senario_Iterator（场景）:16
 Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3704,6 +4452,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -3779,6 +4602,81 @@ Sub Problem Security Constraint Check:5
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 2.10042
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
@@ -3837,6 +4735,81 @@ Senario_Security_Problem Have Solution, and objective is: 0
 
 Num_Senario_Iterator（场景）:19
 Senario_Sub_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 1.54171
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.140992
 
 Sub Problem Security Constraint Check:1
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3932,7 +4905,7 @@ Sub Problem Security Constraint Check:6
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:7
-Senario_Security_Problem Have Solution, and objective is: 0
+Senario_Security_Problem Have Solution, and objective is: 5.13734
 
 Sub Problem Security Constraint Check:8
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3950,7 +4923,7 @@ Sub Problem Security Constraint Check:12
 Senario_Security_Problem Have Solution, and objective is: 0
 
 Sub Problem Security Constraint Check:13
-Senario_Security_Problem Have Solution, and objective is: 0
+Senario_Security_Problem Have Solution, and objective is: 0.509672
 
 Sub Problem Security Constraint Check:14
 Senario_Security_Problem Have Solution, and objective is: 0
@@ -3985,9 +4958,84 @@ Senario_Security_Problem Have Solution, and objective is: 0
 Sub Problem Security Constraint Check:24
 Senario_Security_Problem Have Solution, and objective is: 0
 
-Cost:848182
+goto label1，场景校验子问题安全约束越限，返回当前子问题>>>
+Senario_Sub_Problem Have Solution, and objective is: 0.707515
+
+Sub Problem Security Constraint Check:1
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:2
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:3
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:4
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:5
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:6
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:7
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:8
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:9
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:10
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:11
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:12
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:13
+Senario_Security_Problem Have Solution, and objective is: 0.353182
+
+Sub Problem Security Constraint Check:14
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:15
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:16
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:17
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:18
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:19
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:20
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:21
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:22
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:23
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Sub Problem Security Constraint Check:24
+Senario_Security_Problem Have Solution, and objective is: 0
+
+Cost:854496
 I:
--0   0   0   0   0   -0   -0   1   1   1   1   1   1   -0   -0   -0   -0   -0   -0   -0   -0   -0   1   1   
+-0   0   0   0   0   -0   -0   1   1   1   1   1   -0   -0   -0   -0   -0   -0   -0   -0   -0   1   1   1   
 
 -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
@@ -3995,51 +5043,51 @@ I:
 
 -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
-0   0   0   0   0   0   0   -0   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   -0   
+0   0   0   0   0   0   0   -0   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
+
+1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+-0   0   0   0   0   -0   -0   0   -0   -0   -0   -0   -0   1   1   1   1   1   -0   -0   -0   0   -0   0   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
+
+1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+-0   0   0   0   0   -0   -0   0   -0   -0   -0   -0   0   -0   -0   -0   0   -0   -0   -0   -0   0   -0   -0   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+-0   0   0   0   0   -0   -0   0   -0   -0   -0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   -0   0   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+-0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
+
+-0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   -0   -0   -0   -0   0   
+
+1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
+
+1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
+
+-0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   1   1   
+
+-0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   -0   0   -0   -0   -0   -0   -0   -0   0   
+
+1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
 
 1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   -0   
 
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
--0   0   0   0   0   -0   -0   -0   0   -0   -0   -0   0   0   -0   -0   -0   -0   -0   -0   -0   1   1   1   
-
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
-1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
-
-1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
-
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
--0   0   0   0   0   -0   -0   1   1   1   1   1   1   1   1   1   -0   -0   -0   -0   -0   0   -0   0   
-
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
--0   0   0   0   0   -0   -0   -0   -0   -0   1   1   1   1   1   -0   -0   -0   -0   -0   -0   -0   1   1   
-
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
--0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
-
--0   0   0   0   0   -0   -0   1   1   1   1   1   1   1   1   -0   -0   -0   -0   -0   -0   -0   -0   0   
-
-1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
-
-1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
-
--0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   0   -0   -0   -0   -0   -0   -0   -0   
-
--0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   0   -0   -0   -0   -0   -0   -0   0   
-
-1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
-
-1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
-
--0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   -0   -0   -0   -0   -0   -0   1   1   1   
+-0   0   0   0   0   -0   -0   1   1   1   1   1   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   
 
 1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
 
@@ -4047,7 +5095,7 @@ I:
 
 1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
 
--0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   
+-0   0   0   0   -0   -0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   
 
 -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
@@ -4055,9 +5103,9 @@ I:
 
 -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
--0   0   0   0   0   -0   -0   -0   -0   -0   -0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   
+-0   0   0   0   0   -0   -0   -0   1   1   1   1   1   -0   -0   -0   0   -0   -0   -0   -0   -0   -0   0   
 
--0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   1   1   1   1   1   -0   -0   -0   -0   -0   0   
+-0   0   0   0   0   -0   -0   -0   -0   -0   1   1   1   1   1   -0   -0   -0   -0   -0   -0   -0   -0   0   
 
 0   0   0   0   0   0   0   -0   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
 
@@ -4065,7 +5113,7 @@ I:
 
 1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
 
-1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   -0   
+1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   1   
 
 -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
@@ -4079,26 +5127,26 @@ I:
 
 -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
--0   0   0   0   0   -0   -0   -0   1   1   1   1   1   1   1   1   1   1   -0   -0   -0   0   -0   -0   
+-0   0   0   0   0   -0   -0   -0   -0   -0   1   1   1   1   1   -0   -0   -0   -0   -0   -0   1   1   1   
 
--0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   -0   0   
+-0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   -0   -0   -0   -0   -0   -0   1   1   1   
 
 -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
 0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
--0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   
+-0   0   0   0   0   -0   -0   -0   1   1   1   1   1   1   1   1   -0   -0   -0   -0   -0   -0   1   1   
 
--0   0   0   0   0   -0   -0   -0   1   1   1   1   1   -0   -0   0   -0   -0   -0   -0   -0   -0   -0   0   
+-0   0   0   0   0   -0   -0   1   1   1   1   1   1   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   0   
 
--0   0   0   0   0   -0   -0   -0   -0   0   -0   -0   -0   -0   -0   -0   -0   0   -0   -0   -0   -0   1   1   
+-0   0   0   0   0   -0   -0   -0   -0   -0   -0   -0   -0   1   1   1   1   1   -0   -0   -0   0   -0   0   
 
 0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   -0   
 
 
 P:
 
-0   0   0   0   0   0   0   25   25   25   25   25   25   0   0   0   0   0   0   0   0   0   25   25   
+0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   0   0   0   25   25   25   
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
@@ -4106,91 +5154,57 @@ P:
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
-0   0   0   0   0   0   0   0   150   150   150   150   150   150   150   150   150   150   150   150   150   150   150   0   
+0   0   0   0   0   0   0   0   150   150   150   150   150   150   150   150   150   150   150   150   150   150   150   150   
 
-100   100   100   100   100   110.054   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   25   25   25   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-100   100   100   100   100   200   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
-
-350   350   350   350   296.98   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   25   25   25   25   25   25   25   25   25   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   0   25   25   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   25   25   25   25   25   25   25   25   0   0   0   0   0   0   0   0   0   
-
-150   86.4   66.82   50.8465   50   100   150   196.037   216.106   250   250   250   250   250   250   250   250   250   250   250   250   250   250   163.98   
-
-150   86.4   66.82   50.8461   50   50   150   196.043   216.104   250   250   250   250   250   250   250   250   250   250   250   250   250   250   163.98   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-50   50   50   50   50   50   50   50   50   133.675   162.5   162.5   162.5   162.5   170.5   167.505   187.99   200   196.095   174.28   162.5   162.5   66.605   50   
-
-50   50   50   50   50   50   50   50   50   133.675   162.5   162.5   162.5   162.5   170.5   167.505   187.99   200   196.095   174.28   162.5   162.5   66.605   50   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   25   25   25   
-
-207.31   180   180   180   180   126.586   180   260   260   260   260   285.961   287.137   336.748   340   340   340   340   340   340   331.38   327.745   260   260   
-
-207.31   180   180   180   180   180   219.265   260   260   260   307.025   340   290.533   336.752   340   340   340   340   340   340   331.38   327.745   260   260   
-
-80   80   80   80   80   80   80   80   80   80   80   80   80   80   80   80   80   86.78   80   80   80   80   80   80   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   
 
-0   0   0   0   0   0   0   0   150   150   150   150   150   150   150   150   150   150   150   150   150   150   150   150   
-
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
-
-300   300   300   257.288   250   100   171.155   300   300   300   300   300   300   300   300   300   300   300   300   300   300   300   300   300   
-
-50   50   50   50   50   50   50   50   50   87.5   78.2447   56.6393   87.5   87.5   87.5   87.5   87.5   125   87.5   87.5   87.5   87.5   50   0   
-
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
 100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
 
-100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
-
-100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
+350   350   350   350   287.5   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   350   
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
-0   0   0   0   0   0   0   0   25   25   25   25   25   25   25   25   25   25   0   0   0   0   0   0   
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+150   95.6342   71.9795   53.9213   50   61.0603   120.799   211.526   232.249   250   250   250   250   250   250   250   250   250   250   250   250   250   250   126.686   
+
+150   95.6342   71.9795   53.9213   50   61.0415   120.798   211.525   232.249   250   250   250   250   250   250   250   250   250   250   250   250   250   250   126.686   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   25   25   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+50   50.4093   50   50   50   50   50   50   50   150   162.5   162.5   162.5   175.445   182.69   172.095   188.594   200   196.103   174.446   162.5   162.5   102.935   50   
+
+50   50.4093   50   50   50   50   50   50   50   150   162.5   162.5   162.5   175.445   182.69   172.095   188.594   200   196.103   174.444   162.5   150   50   0   
+
+0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   0   0   0   0   0   0   
+
+212.981   180   180   180   180   180   180   260   260   265.454   296.83   315.63   326.292   340   340   340   340   340   340   340   332.33   322.945   260   180   
+
+212.981   180   180   180   180   180   180   260   260   265.454   296.83   315.63   326.292   340   340   340   340   340   340   340   332.33   322.945   260   180   
+
+80   80   80   80   80   80   80   80   80   80   80   80   80   80   80   80   80   86.7933   80   80   80   80   80   80   
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
@@ -4202,9 +5216,43 @@ P:
 
 0   0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   0   0   0   0   0   
 
-0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   25   25   
+0   0   0   0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   150   150   150   150   150   150   150   150   150   150   150   150   150   150   150   150   
 
 0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
 
-totaltime: 706.555s
+300   300   300   257.288   273.891   217.589   300   300   300   300   300   300   300   300   300   300   300   300   300   300   300   300   300   300   
+
+50   50   50   50   50   50   50   50   50   87.5   87.5   87.5   87.5   87.5   87.5   87.5   87.5   125   87.5   87.5   87.5   87.5   50   50   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
+
+100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
+
+100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   100   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   25   25   25   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   25   25   25   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   25   25   25   25   25   25   25   25   0   0   0   0   0   0   25   25   
+
+0   0   0   0   0   0   0   25   25   25   25   25   25   0   0   0   0   0   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   25   25   25   25   25   0   0   0   0   0   0   
+
+0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   
+
+totaltime: 1095.44s
 

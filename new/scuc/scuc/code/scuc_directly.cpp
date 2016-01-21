@@ -160,7 +160,7 @@ void define_data(IloEnv env)
 	output<<endl<<endl<<"ddtt:"<<endl;
 	for(IloInt i=0;i<NG;++i)
 	{
-		ddtt[i]=Unit[i][5]/2;
+		ddtt[i]=Unit[i][5]/6;
 		output<<ddtt[i]<<"   ";
 	}
 	
