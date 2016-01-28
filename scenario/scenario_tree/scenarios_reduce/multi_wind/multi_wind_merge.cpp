@@ -11,7 +11,7 @@ using namespace std;
  
 const int WINDNUM = 3;
 const int NT      = 24;
-const int SCENNUM = 8;
+const int SCENNUM = 1000;
 
 //之所以分开存放是考虑到系统内存的限制
 ifstream input1("scenarios1.txt",ios::in);//风电场1
@@ -45,23 +45,27 @@ int main()
 			input3>>wind3[t];
 		}
 		
+		output<<"echo  ";
 		for(int t = 0;t < NT;++t)
 		{//输出风电场1数据
 			output<<wind1[t]<<"  ";
 		}
-		output<<endl;
+		output<<" > wind_scenarios.txt"<<endl;
 		
+		output<<"echo  ";
 		for(int t = 0;t < NT;++t)
 		{//输出风电场2数据
 			output<<wind2[t]<<"  ";
 		}
-		output<<endl;
+		output<<" >> wind_scenarios.txt"<<endl;
 		
+		output<<"echo  ";
 		for(int t = 0;t < NT;++t)
 		{//输出风电场3数据
 			output<<wind3[t]<<"  ";
 		}
-		output<<endl<<endl;
+		output<<" >> wind_scenarios.txt"<<endl;
+		output<<"call Check.exe"<<endl;
 	}
 	return 0;
 }

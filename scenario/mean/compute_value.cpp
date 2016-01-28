@@ -45,7 +45,7 @@ double Integration(const double pre,const double u,const double b,const int N=10
 	return sum;
 }
 //ÆäÊµÇóÆÚÍûºÍÇó¸ÅÂÊÊÇÀàËÆµÄ£¬Ö»²»¹ýÊÇ±»»ýº¯ÊýµÄ¸Ä±ä
-double mean(const double pre,const double u,const double b,const int N=300)//Çó£¨minvalue~Poff£©ÆÚÍû£¬²ÎÊýÎª·Ö¶ÎÊý
+double mean(const double pre,const double u,const double b,const int N = 300)//Çó£¨minvalue~Poff£©ÆÚÍû£¬²ÎÊýÎª·Ö¶ÎÊý
 {
 	double distance=(Poff-pre+D)/N;//Çø¼ä´óÐ¡
 	double sum(0);
@@ -62,10 +62,9 @@ double mean(const double pre,const double u,const double b,const int N=300)//Çó£
 	return sum;
 }
 
-double computeValue(double pre)
+double computeValue(double pre,double b)
 {
-	double u=pre,b;
-	b=pre / 5 + Wz / 50;
+	double u = pre;	
 	return (mean(pre,u,b) + Poff*Integration(pre,u,b));//ÇóµÄÊÇÁ½¶ÎµÄÆÚÍû
 }
 int main()
@@ -75,9 +74,10 @@ int main()
 		input>>pre[i];
 	}
 	
-	for(int i=0;i<NT;++i)
+	for(int i = 0;i < NT;++i)
 	{
-		computeResult[i] = computeValue(pre[i]);
+		double b = pre[i] / 10 + Wz / 50 + i / 2;
+		computeResult[i] = computeValue(pre[i],b);
 		output<<computeResult[i]<<"   ";
 	}
 	

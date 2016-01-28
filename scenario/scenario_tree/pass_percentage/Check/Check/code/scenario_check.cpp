@@ -50,34 +50,38 @@ void data_define(IloEnv env)
 {
 	for(IloInt i=0;i<NG;++i)
 	{
-		P[i]=IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
-		S3[i]=IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
-		S6[i]=IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
-		S7[i]=IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
+		P[i]  = IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
+		S3[i] = IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
+		S6[i] = IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
+		S7[i] = IloNumVarArray(env,NT,0,IloInfinity,ILOFLOAT);
 	}		
 /************************************数据读取******************************************/
 	ifstream input_wind("wind_scenarios.txt",ios::in);//误差场景，由蒙特卡洛方法生成
+	if(!input_wind)
+	{
+		cerr<<"wind_scenarios.txt is not exist!!!"<<endl;
+	}
 	for(IloInt w=0;w<NW;++w)
 	{
 		Pwind[w]=IloNumArray(env,NT);
-		for(IloInt t=0;t<NT;++t)
+		for(IloInt t = 0;t < NT;++t)
 		{
 			input_wind>>Pwind[w][t];
-			// output<<Pwind[w][t]<<"   ";
+			cout<<Pwind[w][t]<<"   ";
 		}
-		// output<<endl;
+		cout<<endl;
 	}
 	input_wind.close();
 
 	//预测场景下的常规机组启停状态
-	ifstream input_commitment("uc.txt",ios::in);
+	ifstream input_commitment("input_data/uc.txt",ios::in);
 	if(!input_commitment)
 	{
 		cerr<<"uc.txt is not exist!!!"<<endl;
 	}
 	for(IloInt i=0;i<NG;++i)
 	{
-		I[i]=IloNumArray(env,NT);
+		I[i] = IloNumArray(env,NT);
 		for(IloInt t=0;t<NT;++t)
 		{
 			input_commitment>>I[i][t];
@@ -86,7 +90,7 @@ void data_define(IloEnv env)
 	input_commitment.close();
 	
 	//预测场景下的常规机组出力水平
-	ifstream input_preoutput("Ppower.txt",ios::in);
+	ifstream input_preoutput("input_data/Ppower.txt",ios::in);
 	if(!input_preoutput)
 	{
 		cerr<<"Ppower.txt is not exist"<<endl;
@@ -102,7 +106,7 @@ void data_define(IloEnv env)
 	input_preoutput.close();
 
 	//读取负荷信息
-	ifstream input_load("load.txt",ios::in);
+	ifstream input_load("input_data/load.txt",ios::in);
 	if(!input_load)
 	{
 		cerr<<"load.txt is not exist!!!"<<endl;
@@ -114,7 +118,7 @@ void data_define(IloEnv env)
 	input_load.close();
 	
 	//读取风电支路信息:起点，终点，电阻，电抗以及潮流上限		
-	ifstream input_BFile("Brach_File.txt",ios::in);
+	ifstream input_BFile("input_data/Brach_File.txt",ios::in);
 	if(!input_BFile)
 	{	
 		cerr<<"Brach_File.txt is not exist!!!"<<endl;
@@ -130,7 +134,7 @@ void data_define(IloEnv env)
 	input_BFile.close();
 	
 	//读入机组信息
-	ifstream input_unitinfo("unit_information.txt",ios::in);
+	ifstream input_unitinfo("input_data/unit_information.txt",ios::in);
 	if(!input_unitinfo)
 	{
 		cerr<<"unit_information.txt is not exist!!!"<<endl;
@@ -146,14 +150,14 @@ void data_define(IloEnv env)
 	input_unitinfo.close();
 	
 	//output<<endl<<endl<<"deta:"<<endl;
-	for(IloInt i=0;i<NG;i++)
+	for(IloInt i = 0;i < NG; i++)
 	{
-		deta[i]=Unit[i][5]/6;
+		deta[i] = Unit[i][5] / 6;
 		//output<<deta[i]<<"   ";
 	}
 	
 	//风场分布
-	ifstream input_wind_locate("wind_locate.txt",ios::in);
+	ifstream input_wind_locate("input_data/wind_locate.txt",ios::in);
 	if(!input_wind_locate)
 	{
 		cerr<<"wind_locate is not exist!!!"<<endl;
@@ -165,7 +169,7 @@ void data_define(IloEnv env)
 	input_wind_locate.close();
 	
 	//负荷分布
-	ifstream input_load_locate("load_locate.txt",ios::in);
+	ifstream input_load_locate("input_data/load_locate.txt",ios::in);
 	if(!input_load_locate)
 	{
 		cerr<<"load_locate is not exist!!!"<<endl;
@@ -335,31 +339,35 @@ int main()
 		IloNumExpr Cost(env);
 		for(IloInt t=0;t<NT;++t)
 		{
-			Cost+=(S1[t]+S2[t]);
+			Cost += (S1[t]+S2[t]);
 			for(IloInt i=0;i<NG;++i)			
 			{
-				Cost+=S3[i][t]+S6[i][t]+S7[i][t];
+				Cost += (S3[i][t]+S6[i][t]+S7[i][t]);
 			}
 		}
 		for(IloInt h=0;h<Branch;++h)
 		{
-			Cost+=(S4[h]+S5[h]);
+			Cost += (S4[h]+S5[h]);
 		}
 		Check_Model.add(IloMinimize(env,Cost));//目标函数
 		
-		for(IloInt i=0; i<NG; ++i)//机组出力上下限约束
-			for(IloInt t=0; t<NT; ++t)
+		for(IloInt i = 0;i < NG; ++i)//机组出力上下限约束
+		{
+			for(IloInt t = 0;t< NT; ++t)
 			{
-				Check_Model.add(P[i][t]-S6[i][t]<=Unit[i][2]*I[i][t]);
-				Check_Model.add(P[i][t]+S7[i][t]>=Unit[i][1]*I[i][t]);
+				Check_Model.add(P[i][t] - S6[i][t] <= Unit[i][2]*I[i][t]);
+				Check_Model.add(P[i][t] + S7[i][t] >= Unit[i][1]*I[i][t]);
 			}
+		}
 		
-		for(IloInt i=0; i<NG; ++i)//机组爬坡约束,此条件未松弛
-			for(IloInt t=1; t<NT; ++t)
+		for(IloInt i = 0;i < NG; ++i)//机组爬坡约束,此条件未松弛
+		{
+			for(IloInt t = 1;t < NT; ++t)
 			{
-				Check_Model.add(P[i][t]-P[i][t-1]<=(1-I[i][t]*(1-I[i][t-1]))*Unit[i][5]+I[i][t]*(1-I[i][t-1])*Unit[i][1]);
-				Check_Model.add(P[i][t-1]-P[i][t]<=(1-I[i][t-1]*(1-I[i][t]))*Unit[i][6]+I[i][t-1]*(1-I[i][t])*Unit[i][1]);
+				Check_Model.add(P[i][t] - P[i][t-1] <= (1 - I[i][t] * (1-I[i][t-1]))*Unit[i][5] + I[i][t]*(1-I[i][t-1])*Unit[i][1]);
+				Check_Model.add(P[i][t-1] - P[i][t] <= (1 - I[i][t-1] * (1-I[i][t]))*Unit[i][6] + I[i][t-1]*(1-I[i][t])*Unit[i][1]);
 			}
+		}
 		
 		for(IloInt t=0; t<NT; ++t)//机组功率平衡约束
 		{
@@ -367,22 +375,25 @@ int main()
 			IloNum wind(0);
 			for(IloInt i=0; i<NG; ++i)
 			{
-				fire+=P[i][t];
+				fire += P[i][t];
 			}
 			for(IloInt w=0;w<NW;++w)
 			{
-				wind+=Pwind[w][t];
+				wind += Pwind[w][t];
 			}
-			Check_Model.add(fire+S1[t]-S2[t]==Pload[t]-wind);
+			Check_Model.add(fire + S1[t] - S2[t] == Pload[t] - wind);
 			fire.end();
 		}
 
 		for(IloInt i=0;i<NG;++i)//机组出力爬坡约束
+		{
 			for(IloInt t=0;t<NT;++t)
 			{
-				Check_Model.add(P[i][t]-Pre[i][t]-S3[i][t] <= deta[i]);
-				Check_Model.add(P[i][t]-Pre[i][t]+S3[i][t] >= -deta[i]);
+				Check_Model.add(P[i][t] - Pre[i][t] - S3[i][t] <= deta[i]);
+				Check_Model.add(P[i][t] - Pre[i][t] + S3[i][t] >= -deta[i]);
 			}
+		}
+		
 /************************************安全约束******************************************/		
 		for(IloInt t=0; t<NT; ++t)
 		{
@@ -390,21 +401,22 @@ int main()
 			IloExprArray Psp(env,Node-1);//注入功率
 			IloExprArray Theta(env,Node);//相角
 			
-			Theta[Node-1]=IloExpr(env);
+			Theta[Node-1] = IloExpr(env);
 			
 			for(IloInt k = 0; k<Node-1; ++k)
 			{
 				Psp[k] = IloExpr(env);
 				IloInt i = 0;
 				for(;i<NG;++i)
-				{
+				{//查找机组
 					if((Unit[i][0]-1) == k)break;
 				}
-				if(i<NG)
+				
+				if(i < NG)
 				{
 					Psp[k] += P[i][t];
 				}
-				if(Sw[k]>=0)
+				if(Sw[k] >= 0)
 				{
 					Psp[k] += Pwind[ Sw[k] ][t];
 				}

@@ -5,9 +5,9 @@
 using namespace std;
 
 ifstream inputP0("random_scenario.txt",ios::in);
-ifstream inputPs("scenarios.txt",ios::in);
+ifstream inputPs("merge_scenarios.txt",ios::in);
 
-const int S  = 8;
+const int S  = 5;
 const int NT = 24;
 
 double distanceF(double p1[],double p2[],int n = NT);
@@ -29,7 +29,7 @@ int main()
 	double scenarios[S][NT];
 	if(!inputPs)
 	{
-		cerr<<"file scenarios is not exist!"<<endl;
+		cerr<<"file merge_scenarios is not exist!"<<endl;
 		return -1;
 	}
 	for(int s = 0;s < S;++s)

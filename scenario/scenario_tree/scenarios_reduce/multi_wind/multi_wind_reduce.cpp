@@ -22,7 +22,9 @@ const int NT      = 24;//time
 const int WINDNUM = 3;
 
 double wind1[Pre_N][NT],wind2[Pre_N][NT],wind3[Pre_N][NT];//数据量过大，容易引起溢出
-const int J[NT] = {0,1,0,0,1,0,2,0,0,1,0,0,2,0,2,0,0,3,0,3,0,4,0,480};//各个时段删除的节点数
+const int J[NT] = {0,0,0,0,1,0,2,0,0,1,0,0,2,0,2,0,0,3,0,3,0,4,0,480};//各个时段删除的节点数
+//const int J[NT]={0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,498};//2
+//const int J[NT]={0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,2,0,0,0,0,495};//5
 int fAftToPre[Aft_N] = {0};
 
 double c_distance(double s1[NT],double s2[NT],int T)
