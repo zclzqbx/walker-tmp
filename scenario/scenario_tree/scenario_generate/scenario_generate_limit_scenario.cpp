@@ -11,7 +11,7 @@
 #include <cstdlib>
 using namespace std;
 
-#define POS pos_075//定义分位点，本程序采用的是对称分位点
+#define POS pos_085//定义分位点，本程序采用的是对称分位点
 
 const int NT         = 24;//误差场景时段
 const double pref    = 230;//切割点
