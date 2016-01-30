@@ -62,7 +62,7 @@ int main()
 	{//需要生成Num个场景序列
 		for(int k=0;k<NT;++k)
 		{
-			b = Pre[k] / 10 + Wz / 50 + k / 2;
+			b = Pre[k] / 5 + Wz / 50 + k / 2;
 			double tmp = Pre[k] + normal_distribution(nsample,b,u);//生成一个出力场景
 			if(tmp > pref)
 			{//对生成的场景添加出力上限
