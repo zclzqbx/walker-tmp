@@ -17,7 +17,7 @@ ILOSTLBEGIN
 const IloInt NG     = 54;//常规机组台数
 const IloInt NT     = 24;//调度周期时段数
 const IloInt NL     = 4;//目标函数线性化分段数,理论上分段越多越精确，但会增加计算量
-const IloInt NW     = 3;//风电场个数
+const IloInt NW     = 1;//风电场个数
 const IloInt set    = 20;//场景个数
 const IloInt Node   = 118;//结点
 const IloInt Branch = 186;//支路
@@ -103,7 +103,7 @@ void define_data(IloEnv env)//数据初始化,对全局变量进行赋值
 	output<<endl<<endl<<"detaa:"<<endl;
 	for(IloInt i=0;i<NG;i++)
 	{
-		detaa[i]=Unit[i][5]/6;
+		detaa[i]=Unit[i][5] / 15.7;
 		output<<detaa[i]<<"   ";
 	}
 	
