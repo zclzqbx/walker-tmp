@@ -15,7 +15,7 @@ ILOSTLBEGIN
 
 const IloInt NG     = 54;//常规机组台数
 const IloInt NT     = 24;//调度周期时段数
-const IloInt NW     = 3;//风电机组个数
+const IloInt NW     = 1;//风电机组个数
 const IloInt Node   = 118;
 const IloInt Branch = 186;
 const IloInt NL     = 4;//目标函数线性化分段数
@@ -160,7 +160,7 @@ void define_data(IloEnv env)
 	output<<endl<<endl<<"ddtt:"<<endl;
 	for(IloInt i=0;i<NG;++i)
 	{
-		ddtt[i]=Unit[i][5]/6;
+		ddtt[i]=Unit[i][5] / 15.7;
 		output<<ddtt[i]<<"   ";
 	}
 	
